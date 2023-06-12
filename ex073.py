@@ -1,0 +1,17 @@
+times = ('Botafogo', 'Palmeiras', 'Flamengo', 'Atlético-MG', 'Fluminense', 'Grêmio',
+         'Athletico-PR', 'São Paulo', 'Cruzeiro', 'Internacional', 'Fortaleza', 'Bragantino',
+         'Santos', 'Cuiabá', 'Bahia', 'Corinthians', 'Goiás', 'América-MG', 'Vasco da gama', 'Coritiba')
+print('-=' * 20)
+print('Alguns dados do Brasileirão Série A (11/06/2023')
+print('-=' * 20)
+print('Os cinco primeiros colocados são:')
+print(times[:5])
+print('-=' * 20)
+print('Os quatro últimos são:')
+print(times[-4:])
+print('-=' * 20)
+print('Os times em ordem alfabetica são:')
+print(sorted(times))
+print('-=' * 20)
+print(f'O santos está na {times.index("Santos") + 1}ª colocação.')
+print('-=' * 20)
